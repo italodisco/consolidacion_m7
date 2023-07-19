@@ -35,15 +35,15 @@
     methods: {
       inscribirse() {
     if (this.curso.inscritos < this.curso.cupos) {
-      // Realizar lógica de inscripción aquí
+
       
-      // Actualizar el número de inscritos en el curso
+
       this.curso.inscritos++;
   
-      // Actualizar el estado de inscripción exitosa
+    
       this.inscripcionExitosa = true;
     } else {
-      // Mostrar mensaje de error o deshabilitar el botón de inscripción si no hay cupos disponibles
+     
     }
   }
 }
